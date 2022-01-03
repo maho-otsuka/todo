@@ -177,8 +177,5 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
     );
 }
 
-ReactDOM.render(<App />　, document.getElementById('root'));
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('root2')
-);
+ReactDOM.render(<App />　, <h1>Hello, world!</h1>, document.getElementById('root'));
+
