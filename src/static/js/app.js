@@ -1,6 +1,7 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
+        <h1>maho-ot Todo</h1>
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
@@ -177,5 +178,5 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
     );
 }
 
-ReactDOM.render(<h1>Hello, world!</h1>, <App />　, document.getElementById('root'));
+ReactDOM.render(<App />　, document.getElementById('root'));
 
