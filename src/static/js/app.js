@@ -1,10 +1,11 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
-        <h1>maho-ot Todo</h1>
+        
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
+                    <h1>maho-ot Todo</h1>
                     <TodoListCard />
                 </Col>
             </Row>
